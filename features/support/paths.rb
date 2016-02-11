@@ -7,7 +7,7 @@ module NavigationHelpers
       '/'
     else
       begin
-        page_name =~ /(the|my) (.*)( page)?/
+        page_name =~ /(the|my) (.*) page/
         path_components = $2.split(/\s+/)
         self.send(path_components.push('path').join('_'))
       rescue
