@@ -5,6 +5,5 @@ Feature: Styleguide
   I want to see a styleguide
 
   Scenario: Display Styleguide
-    Given I go to the styleguide
+    Given I go to the styleguide page
     Then I should see the styleguide
-
