@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 
-gem 'rails', '~> 4.2'
+gem 'rails', '~> 5.0.0.beta4'
 gem 'pg'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3'
@@ -14,7 +14,7 @@ gem 'turbolinks'
 gem 'devise'
 gem 'simple_form'
 gem 'virtus'
-gem 'schema_auto_foreign_keys'
+# gem 'schema_auto_foreign_keys' disable for Rails 5
 gem 'bootstrap-sass'
 gem 'sidekiq', '~> 4.0'
 gem 'sinatra' # for sidekiq dashboard
