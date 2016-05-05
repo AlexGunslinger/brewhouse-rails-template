@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/sinatra/sinatra.git
+  revision: aa4ad35b7c5e6ed5fb64b8572fc916003519bc3f
+  specs:
+    sinatra (2.0.0.pre.alpha)
+      mustermann (~> 0.4)
+      rack (= 2.0.0.alpha)
+      rack-protection (~> 1.5)
+      tilt (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -149,6 +159,8 @@ GEM
     minitest (5.8.4)
     multi_json (1.12.0)
     multi_test (0.1.2)
+    mustermann (0.4.0)
+      tool (~> 0.2)
     newrelic_rpm (3.15.2.317)
     nio4r (1.2.1)
     nokogiri (1.6.7.2)
@@ -158,6 +170,8 @@ GEM
     puma (3.4.0)
     rack (2.0.0.alpha)
       json
+    rack-protection (1.5.3)
+      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.0.beta4)
@@ -239,8 +253,6 @@ GEM
       json (~> 1.8)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
-    sinatra (1.0)
-      rack (>= 1.0)
     spring (1.7.1)
     spring-commands-cucumber (1.0.1)
       spring (>= 0.9.1)
@@ -256,6 +268,7 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
+    tool (0.2.3)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
@@ -310,7 +323,7 @@ DEPENDENCIES
   sidekiq (~> 4.0)
   simple_form
   simplecov
-  sinatra
+  sinatra!
   spring
   spring-commands-cucumber
   spring-commands-rspec

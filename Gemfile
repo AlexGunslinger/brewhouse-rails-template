@@ -17,7 +17,7 @@ gem 'virtus'
 # gem 'schema_auto_foreign_keys' disable for Rails 5
 gem 'bootstrap-sass'
 gem 'sidekiq', '~> 4.0'
-gem 'sinatra' # for sidekiq dashboard
+gem 'sinatra', github: 'sinatra/sinatra' # rack 2 compatibility
 gem 'roadie-rails', '~> 1.0'
 
 gem 'rollbar'
