@@ -1,24 +1,10 @@
 require 'sidekiq/web'
 
+# For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 Rails.application.routes.draw do
   root 'home#index'
 
   devise_for :users
-
-  # Examples:
-  #
-  # resources :products do
-  #   member do
-  #     get 'short'
-  #     post 'toggle'
-  #   end
-  #
-  #   collection do
-  #     get 'sold'
-  #   end
-  #
-  #   resources :comments, :sales
-  # end
 
   get '/styleguide', to: "styleguide#show"
 
