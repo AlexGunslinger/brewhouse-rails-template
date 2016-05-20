@@ -1,6 +1,6 @@
 # Brewhouse Rails Template
 
-This is a Rails 4 application.
+This is a Rails 5 application.
 
 ## Get up and running
 
